@@ -15,7 +15,7 @@ var getInline = require('get-inline')
 
 getInline('https://foo.bar')
   .then(inlineStyle => {
-    // ...
+    // [...] An array of inline style objects
   })
 ```
 
