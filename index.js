@@ -1,6 +1,6 @@
 'use strict'
 
-const nightmare = require('nightmare')()
+const Nightmare = require('nightmare')
 const getInlineStyles = require('get-inline-styles')
 const isUrl = require('is-url')
 
@@ -9,6 +9,8 @@ module.exports = url => {
     if (typeof url !== 'string' || !isUrl(url)) {
       reject({ error: 'get-inline expected a url' })
     }
+
+    const nightmare = Nightmare()
 
     nightmare
       .goto(url)
