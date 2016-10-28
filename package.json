@@ -17,7 +17,7 @@
     "get-inline-styles": "^1.0.0",
     "is-present": "^1.0.0",
     "is-url": "^1.2.2",
-    "nightmare": "^2.5.3"
+    "nightmare": "^2.8.1"
   },
   "devDependencies": {
     "ava": "*"
